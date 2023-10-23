@@ -56,7 +56,5 @@ def main():
             print("Please enter an integer between 1 and 12.")
 
 
-1
-
 if __name__ == "__main__":
     main()
