@@ -50,7 +50,7 @@ def main():
 
         case 12:
             print("{} represents December.".format(month_number))
-            
+
         case _:
             # if the user enters an invalid number, tell them to enter a number between 1 and 12
             print("Please enter an integer between 1 and 12.")
