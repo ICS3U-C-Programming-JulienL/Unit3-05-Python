@@ -6,7 +6,7 @@
 
 
 def main():
-    # get the user integer
+    # get the month number
     month_number = int(
         input(
             "This program is used to show  numbers represented as months (1 being January, 2 being February, etc.). Enter a number: "
