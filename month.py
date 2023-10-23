@@ -16,42 +16,46 @@ def main():
     # use a match case to show what numbers the months are represented by
     match month_number:
         case 1:
-            print("1 represents January.")
+            print("{} represents January.".format(month_number))
 
         case 2:
-            print("2 represents February.")
+            print("{} represents February.".format(month_number))
 
         case 3:
-            print("3 represents March.")
+            print("{} represents March.".format(month_number))
 
         case 4:
-            print("4 represents April.")
+            print("{} represents April.".format(month_number))
 
         case 5:
-            print("5 represents May.")
+            print("{} represents May.".format(month_number))
 
         case 6:
-            print("6 represents June.")
+            print("{} represents June.".format(month_number))
 
         case 7:
-            print("7 represents July.")
+            print("{} represents July.".format(month_number))
 
         case 8:
-            print("8 represents August.")
+            print("{} represents August.".format(month_number))
 
         case 9:
-            print("9 represents September.")
+            print("{} represents September.".format(month_number))
 
         case 10:
-            print("10 represents October.")
+            print("{} represents October.".format(month_number))
 
         case 11:
-            print("11 represents November.")
+            print("{} represents November.".format(month_number))
 
         case 12:
-            print("12 represents December.")
+            print("{} represents December.".format(month_number))
+            
         case _:
+            # if the user enters an invalid number, tell them to enter a number between 1 and 12
             print("Please enter an integer between 1 and 12.")
+
+
 1
 
 if __name__ == "__main__":
